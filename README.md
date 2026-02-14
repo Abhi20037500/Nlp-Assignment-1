@@ -26,3 +26,25 @@ unigrams and bigrams.
 
 • Assignment: Given a starting word, you now must predict the whole sentence of length 15
 using the ideas of both unigrams and bigrams.
+
+# lab 2
+
+QI. (Within Lab). The following exercises aim to deepen your understanding of tokenization
+issues in text processing tasks. Recall our class discussion on the complexities of tokenization,
+including handling URLs, email IDs, hashtags, mentions, numbers, and other textual elements.
+You will now explore these challenges in detail through practical examples.
+
+1. Extracting URLs from Text
+2. Identifying Email IDs
+3. Detecting Hashtags
+4. Finding Mentions in Text
+5. Extracting Numbers
+6. Identifying Punctuations
+7. Validating PAN Numbers
+8. Removing Repetitive Characters
+9. Finding Indian Mobile Numbers
+10. Extracting Words Starting with Capital Letters
+
+Q.II (Within Lab). Write a program to calculate the edit distance between two input strings and
+demonstrate the number of operations (insertions, deletions, or substitutions) required to
+transform one string into another.
