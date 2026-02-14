@@ -1,4 +1,4 @@
-# Nlp-Assignment-1
+# Nlp-Assignment
 nlp 
 # lab 1
  Install the following Python libraries using pip:
