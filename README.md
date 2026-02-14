@@ -48,3 +48,38 @@ You will now explore these challenges in detail through practical examples.
 Q.II (Within Lab). Write a program to calculate the edit distance between two input strings and
 demonstrate the number of operations (insertions, deletions, or substitutions) required to
 transform one string into another.
+
+# lab 3
+
+Q1: Implement Stemming Using Porter Stemmer [Lab]
+
+• Write a Python script to apply Porter Stemmer and Lancaster Stemmer on
+a given list of words.
+
+• Compare their outputs.
+
+Example words to test:
+["running", "flies", "better", "studies", "fishing", "happiness"]
+
+Q2: Implement Lemmatization Using WordNet and spaCy [Lab]
+• Write a Python program to perform lemmatization using:
+
+o WordNet Lemmatizer
+
+o spaCy Lemmatizer
+
+• Compare their outputs.
+
+Example words to test:
+["leaves", "mice", "ran", "jumping", "children", "faster"]
+
+Q3: Apply Stemming and Lemmatization on a Large Text Dataset [Lab]
+
+• Load a large text dataset (e.g., from nltk.corpus.gutenberg).
+
+• Apply both stemming and lemmatization.
+
+• Compare the word count before and after processing.
+
+• Create a graph or visualization showing the difference in word reduction
+using stemming vs. lemmatization.
