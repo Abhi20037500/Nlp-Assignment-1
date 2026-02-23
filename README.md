@@ -83,3 +83,67 @@ Q3: Apply Stemming and Lemmatization on a Large Text Dataset [Lab]
 
 • Create a graph or visualization showing the difference in word reduction
 using stemming vs. lemmatization.
+
+# lab 4
+
+Q1: PoS Tagging Implementation
+• Write a Python program to perform PoS tagging on a given sentence.
+
+• Use nltk or spacy library for implementation.
+
+• The program should take a sentence as input and output each word along with its
+corresponding PoS tag.
+
+• Input: "John saw the saw and decided to take it to the table."
+
+Q2: Ambiguity Handling in PoS Tagging
+
+• Analyze the ambiguity in PoS tagging using NLTK and SPACY
+
+o Sentence 1: "I like candy."
+
+o Sentence 2: "Time flies like an arrow."
+
+Q3: p Rule-Based vs Machine Learning-Based PoS Tagging
+
+• Compare rule-based and machine learning-based PoS tagging approaches.
+
+• Use a dataset to test both methods.
+
+• Rule-Based Approach: Implement a rule-based PoS tagger using transformation-based
+learning (TBL).
+
+• Machine Learning Approach: Implement an HMM (Hidden Markov Model) or CRF
+(Conditional Random Field)-based PoS tagger.
+
+• Compare accuracy and efficiency of both aproaches.
+
+Neural Network WalkThroughand Word2Vec
+
+Q1: Implement a Multi-Layer Perceptron (MLP) for Classification
+
+• Create a Multi-Layer Perceptron (MLP) for binary classification.
+
+• Use one hidden layer with ReLU activation.
+
+• Use Softmax activation in the output layer.
+
+• Train the model on a custom dataset (like make_moons from sklearn).
+
+• Print the accuracy of the model
+
+Q2: Implement Backpropagation from Scratch (Without TensorFlow/PyTorch)
+
+• Implement a 2-layer neural network using only NumPy.
+
+• Include forward pass and manual backpropagation.
+
+• Update weights using gradient descent and print loss values.
+
+Q3: Implement Word2Vec using Gensim (CBOW & Skip-gram)
+
+• Train a Word2Vec model on a sample text dataset.
+
+• Implement both CBOW and Skip-gram models.
+
+• Find the most similar words to a given word.
