@@ -147,3 +147,33 @@ Q3: Implement Word2Vec using Gensim (CBOW & Skip-gram)
 • Implement both CBOW and Skip-gram models.
 
 • Find the most similar words to a given word.
+
+# lab 5
+
+Q1: Implement a Character-Level RNN for Name Generation
+
+Goal: Learn how a simple RNN can generate text based on character sequences.
+Instructions:
+
+1. Use a dataset of names (e.g., Shakespeare names or NLTK names).
+2. Preprocess by encoding characters using one-hot encoding.
+3. Implement a character-level RNN using PyTorch or TensorFlow.
+4. Train the model to predict the next character.
+5. Generate new names based on a starting character.
+Expected Output:
+
+• Trained RNN model.
+• Sample generated names.
+
+Q2 : Implement a Sentiment Classification using LSTM on IMDB Dataset
+
+Goal: Use an LSTM to classify movie reviews as positive or negative.
+Instructions:
+
+1. Load the IMDB dataset using torchtext or keras.datasets.
+2. Preprocess: Tokenize and pad sequences.
+3. Implement an LSTM model for binary classification.
+4. Evaluate on test data.
+Expected Output:
+• Accuracy on test set.
+• Example review prediction.
