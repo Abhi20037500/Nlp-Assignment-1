@@ -177,3 +177,34 @@ Instructions:
 Expected Output:
 • Accuracy on test set.
 • Example review prediction.
+
+# lab 6 
+
+Q1: Text Generation using GRU on Custom Dataset
+
+Goal: Use a GRU to generate text in a sequence-to-sequence style.
+Instructions:
+
+1. Load a small text file (e.g., quotes, poetry).
+2. Preprocess into character or word sequences.
+3. Implement a GRU model in PyTorch/TensorFlow.
+4. Train to predict the next word or character.
+5. Generate sample text.
+
+Q2: POS Tagging using GRU and LSTM based Sequence Model
+
+Goal: Implement a GRU-LSTM based model for Part-of-Speech tagging.
+Instructions:
+
+1. Tokenize and tag a set of sentences using NLTK.
+2. Convert to word and tag indexes.
+3. Train a GRU and a LSTM model that outputs a POS tag per word.
+
+Q3. Compare RNN, LSTM, and GRU on a Language Modeling Task
+
+Goal: Evaluate performance of RNN, LSTM, and GRU on the same dataset.
+Instructions:
+
+1. Use a language modeling dataset (e.g., text8 or Tiny Shakespeare).
+2. Implement and train RNN, LSTM, and GRU models separately.
+3. Compare training time, loss curves, and generated outputs
